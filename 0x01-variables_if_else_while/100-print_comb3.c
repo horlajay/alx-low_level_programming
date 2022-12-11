@@ -7,7 +7,7 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 1; a < 9; a++)
+	for (a = 0; a < 9; a++)
 	{
 		for (b = a + 1; b < 10; b++)
 		{
@@ -18,7 +18,7 @@ int main(void)
 				continue;
 
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 
 	}
