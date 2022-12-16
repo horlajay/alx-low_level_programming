@@ -11,12 +11,10 @@
 
 void print_numbers(void)
 {
-char a = 0;
-while (a <= 9)
-{
-_putchar(a + '0');
-a++;
-}
-_putchar('\n');
+	char c;
 
+	for (c = 0; c <= 9; c++)
+		_putchar((c % 10) + '0');
+
+	_putchar('\n');
 }
