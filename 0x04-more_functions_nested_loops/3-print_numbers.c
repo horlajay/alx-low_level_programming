@@ -1,8 +1,3 @@
-/*
- * File: 3-print_numbers.c
- * Auth: Akindele Abdul-Qudus
- */
-
 #include "main.h"
 /**
  * print_numbers - prints number from 0-9.
