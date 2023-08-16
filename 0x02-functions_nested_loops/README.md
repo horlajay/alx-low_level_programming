@@ -15,3 +15,4 @@
 101. A program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 102. A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 103. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.
+104. a  program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
