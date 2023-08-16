@@ -5,3 +5,4 @@
 3. A function that checks for lowercase character.
 4. A  function that checks for alphabetic character.
 5. A function that prints the sign of a number.
+6. A function that computes the absolute value of an integer.
