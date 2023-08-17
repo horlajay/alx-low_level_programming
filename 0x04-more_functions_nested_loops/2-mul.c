@@ -1,8 +1,10 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- *int mul(int a, int b) - multiplies two integers.
- * @c: int type param
- * Return : a * b
+ * mul - multiply 2 integers
+ * @a: int type number
+ * @b: int type number
+ * Return: result of multiplication
  */
 int mul(int a, int b)
 {
