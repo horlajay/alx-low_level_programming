@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_line - draw a diagonal line
- * @n: number of times underscore is printed
+ * print_diagonal - draw a diagonal line
+ * @n: number of times the '\' char is printed
  * Description: Can only use _putchar to print
  */
 void print_diagonal(int n)
