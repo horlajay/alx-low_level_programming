@@ -5,3 +5,4 @@ aa
 5. A function that locates a substring.
 6. A function that prints the chessboard.
 7. A function that sets the value of a pointer to a char.
+100. A function that sets the value of a pointer to a char.
