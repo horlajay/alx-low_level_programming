@@ -1,3 +1,1 @@
-0x10-variadic_functions
-Parsing arguments
-That is the basics
+0x10. C - Variadic functions
