@@ -1,23 +1,21 @@
-#include <lists.h>
+#include "lists.h"
+
 /**
- * print_dlistint - function to print elements of the DLL
- * @dlistint_t: list
- * @h: elements in  the list
- * Retuurn: number of nodes
+ * print_dlistint - Prints all the elements of a dlistint_t list.
+ * @h: The head of the dlistint_t list.
+ *
+ * Return: The number of nodes in the list.
  */
-
-size_t print_dlistint(const struct dlistint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
-	const struct dlistint_t *current = h;
-	size_t count = 0;
+	size_t nodes = 0;
 
-	while (current != NULL)
+	while (h)
 	{
-		printf("%d <-> ", current->n);
-		current = current->next;
-		count++;
+		nodes++;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 
-	printf("NULL\n");
-	return (count);
+	return (nodes);
 }
